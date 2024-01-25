@@ -1,33 +1,8 @@
 // Animations
-// AOS.init({
-//   anchorPlacement: 'top-left',
-//   duration: 1000
-// });
 AOS.init({
-  anchorPlacement: 'top-bottom', 
-  duration: 800,                
-  easing: 'ease-in-out',        
-  once: true,                  // AOS animations happen only once
-  disable: false               // Ensures animations are not disabled on mobile
+  anchorPlacement: 'top-left',
+  duration: 1000
 });
- 
-// Add your javascript here
-// const options = {
-//   bottom: '860px', // default: '32px'
-//   right: 'unset', // default: '32px'
-//   left: '32px', // default: 'unset'
-//   time: '0.5s', // default: '0.3s'
-//   mixColor: '#fff', // default: '#fff'
-//   backgroundColor: '#fff',  // default: '#fff'
-//   buttonColorDark: '#100f2c',  // default: '#100f2c'
-//   buttonColorLight: '#fff', // default: '#fff'
-//   saveInCookies: true, // default: true,
-//   label: '🌓', // default: ''
-//   autoMatchOsTheme: true // default: true
-// }
-
-// const darkmode = new Darkmode(options);
-// darkmode.showWidget();
 
 // Initialize dark mode options
 const options = {
