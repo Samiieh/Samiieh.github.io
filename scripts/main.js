@@ -1,9 +1,16 @@
 // Animations
+// AOS.init({
+//   anchorPlacement: 'top-left',
+//   duration: 1000
+// });
 AOS.init({
-  anchorPlacement: 'top-left',
-  duration: 1000
+  anchorPlacement: 'top-bottom', 
+  duration: 800,                
+  easing: 'ease-in-out',        
+  once: true,                  // AOS animations happen only once
+  disable: false               // Ensures animations are not disabled on mobile
 });
-
+ 
 // Add your javascript here
 // const options = {
 //   bottom: '860px', // default: '32px'
@@ -63,5 +70,3 @@ document.getElementById('icon').addEventListener('click', function() {
   darkmode.toggle(); // Toggle dark mode
   updateIcon(); // Update the icon and apply/remove animation class
 });
-
-

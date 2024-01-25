@@ -94,9 +94,9 @@ footer a:not(.nav-link) {
   .site-nav {
     float: right; } }
 
-@media (max-width: 767px) {
+/* @media (max-width: 850px) { */
   /* disable animations on mobile */
-  [data-aos] {
+  /* [data-aos] {
     opacity: 1 !important;
     transform: translate(0) scale(1) !important; }
   .p-5 {
@@ -106,7 +106,8 @@ footer a:not(.nav-link) {
   .portfolio-reverse {
     flex-direction: column-reverse; }
   .portfolio-reverse .text-end {
-    text-align: start !important; } }
+    text-align: start !important; } } */
+
 
 @media print {
   [data-aos] {
@@ -168,3 +169,46 @@ body {
   opacity: 0.7; /* Example opacity change */
 
 }
+
+/* Ensure the site title and logo are centered and scaled appropriately on smaller screens */
+@media only screen and (max-width: 768px) {
+  .site-title {
+      font-size: 20px; /* Adjust the size as needed */
+  }
+  .site-title img {
+      width: 50%; /* Scale down logo */
+      height: auto;
+  }
+}
+
+.nav-item a {
+  padding: 10px 15px; /* Increase clickable area */
+}
+/* main.css */
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Adjusting padding and margins for smaller screens */
+@media only screen and (max-width: 768px) {
+  .resume-container {
+      padding: 15px; /* Adjust as needed */
+  }
+  .shadow-1-strong {
+      margin: 20px 0; /* Adjust margins for smaller screens */
+  }
+}
+/* main.css */
+
+/* Ensure text and links in the footer are easily readable and accessible */
+footer {
+  font-size: 14px; /* Adjust as needed for readability */
+  padding: 20px 0; /* Adjust padding for mobile */
+}
+
+
+
+
